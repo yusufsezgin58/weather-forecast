@@ -1,0 +1,69 @@
+#card {
+    width: 18rem;
+}
+
+#input {
+    width: 20%;
+    margin-top: 0;
+}
+
+#image {
+    height: 40%;
+    width: 50%;
+}
+
+@media screen and (max-width: 425px) {
+    #search {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3.5%;
+        width: 93%;
+    }
+
+    svg {
+        display: none;
+    }
+
+    #input {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+
+    button {
+        width: 30%;
+        margin-left: 70%;
+    }
+
+    #card {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    #card2 {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    #search {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #input {
+        margin-left: 13%;
+    }
+}
